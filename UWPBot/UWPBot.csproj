@@ -5,4 +5,15 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Discord.net" Version="1.0.2" />
+    <PackageReference Include="newtonsoft.json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Discord.Net.Framework">
+      <HintPath>..\..\Discord.Net.Framework\Discord.Net.Framework\bin\Debug\netstandard2.0\Discord.Net.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
